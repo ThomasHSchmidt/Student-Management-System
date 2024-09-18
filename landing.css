@@ -1,0 +1,209 @@
+body {
+  background-image: url(images/foggy_bottom.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.nav {
+  position: sticky;
+  background-color: white;
+  border-width: 5%;
+  border-bottom-width: 0.2em;
+  /* overflow: hidden; */
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0px;
+  z-index: 900;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color: #003a59;
+}
+.nav-items {
+  justify-content: space-between;
+  padding-right: 2%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: flex-end;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.gwlogo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  max-height: 80%;
+  width: auto;
+  z-index: 1;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.logo {
+  border: none;
+}
+
+.logotext {
+  position: absolute;
+  left: 8%;
+  top: 38px;
+  font-weight: 100;
+  color: black;
+  text-transform: capitalize;
+  z-index: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.landingbuttons {
+  text-decoration: none;
+  font-size: 1.1em;
+  border-radius: 0.25rem;
+  padding: 0.5em;
+  color: white !important;
+  background-color: #023c59 !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landingbuttons:hover {
+  background-color: #e3dccc !important;
+  color: #033b57 !important;
+  transition: 0.5s;
+}
+
+.nounderline {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 100;
+  font-family: "Open Sans", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.container {
+}
+
+.user-area {
+  animation: 1.3s ease-out 0s 1 slideInFromLeft;
+  position: absolute;
+  top: 56%;
+  width: 550px;
+  height: 550px;
+  margin-left: 5vw;
+  transform: translate(0, -50%);
+  z-index: 999;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255, 1);
+  border-style: double;
+  border-color: #0073aa;
+  border-width: 7px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.uni-name {
+  width: 70%;
+  height: 45%;
+  border-style: solid;
+  border-color: #a99d6a;
+  margin: auto;
+  margin-top: 8%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-width: 10px;
+}
+
+.uni-name-top {
+  margin: auto;
+  font-size: 4rem;
+  color: #003a59;
+  font-family: "Tahoma", sans-serif;
+}
+
+.uni-name-bottom {
+  margin: auto;
+  font-size: 3.5rem;
+  color: #003a59;
+  font-family: "Tahoma", sans-serif;
+}
+
+.uni-name-low {
+  margin: auto;
+  font-size: 1.5rem;
+  color: #003a59;
+  font-family: "Tahoma", sans-serif;
+}
+
+.user-buttons {
+  margin-top: 8%;
+  cursor: pointer;
+}
+
+.user-buttons a {
+}
+
+.app {
+  margin-bottom: 5%;
+}
+
+.silhouette {
+  height: 60%;
+  width: 100%;
+  background-image: url(images/sil.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -99;
+  margin-top: -109px;
+  padding-top: 0;
+}
+
+.bubble {
+  width: 10%;
+  height: 5%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-right: 2vw;
+  margin-bottom: 3vh;
+}
+
+.ask {
+  text-decoration: none;
+  font-size: 1.5em;
+  border-radius: 1rem;
+  padding: 0.5em;
+  color: white !important;
+  background-color: #023c59 !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ask:hover {
+  background-color: #e3dccc !important;
+  color: #033b57 !important;
+  transition: 0.5s;
+}
