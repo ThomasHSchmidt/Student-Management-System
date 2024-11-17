@@ -1,6 +1,8 @@
 # Student-Management-System
 Completed in **Spring 2024**, this project was designed to mimic my university's student management system.
 
+THIS IS STRICTLY A **SAMPLE** OF THE PROJECT (for a student affairs reason)
+
 Developed using:
   - **AWS SQL Database**
   - **Python Flask**
